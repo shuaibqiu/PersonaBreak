@@ -1,4 +1,4 @@
-# The Misplaced Censor
+# PersonaBreak
 
 A jailbreak attack evaluation framework that rewrites harmful questions via "first-person wrapped requests" and measures the target model's safety guardrails.
 
@@ -101,4 +101,8 @@ Three core prompts defined in `scripts/prompt.py`:
 - **rewrite_prompt**: Rewrites malicious questions into role-playing indirect requests with hypernym substitution
 - **score_prompt**: Rates response harmfulness on a 0–10 scale
 - **asr_prompt**: Binary classification of whether a response constitutes a successful jailbreak
+
+=======
+# PersonaBreak
+PersonaBreak code file
 
