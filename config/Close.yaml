@@ -1,0 +1,7 @@
+experiment_name: "experiment"
+seed: 42
+aliyun_API_KEY: "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+others_API_KEY: "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+model_name: "gpt-5-mini"
+top_k: 1
+open_source: False

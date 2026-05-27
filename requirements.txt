@@ -1,0 +1,15 @@
+# Core dependencies
+torch>=2.0.0,<3.0.0              # PyTorch — local model inference
+transformers>=4.30.0,<5.0.0      # HuggingFace — model/tokenizer loading
+httpx>=0.24.0,<1.0.0             # Async HTTP client — API model calls
+pyyaml>=6.0,<7.0.0               # YAML config parsing
+
+# For local model inference (GPU recommended)
+# CUDA toolkit matching your PyTorch version is also required
+# See: https://pytorch.org/get-started/locally/
+
+# For open-source models, ensure the following are installed:
+# accelerate>=0.20.0              # model weight sharding / device_map="auto"
+# bitsandbytes>=0.41.0            # 8-bit / 4-bit quantization (optional)
+# sentencepiece>=0.1.99           # tokenizer for Llama-family models
+# protobuf>=3.20.0                # required by sentencepiece / transformers
